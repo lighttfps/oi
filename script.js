@@ -5,7 +5,7 @@ async function fetchGames() {
   try {
     const res = await fetch("https://api.api-futebol.com.br/v1/partidas?data=hoje", {
       headers: {
-        "Authorization": "Bearer c7a4770cb357badbd3e12ad2f8c71dac"
+        "Authorization": "Bearer c318d7bb6044fec655937dd09e4bdb34"
       }
     });
     const data = await res.json();
