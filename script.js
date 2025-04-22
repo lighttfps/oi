@@ -3,7 +3,7 @@ async function fetchGames() {
   document.getElementById("games").innerText = "Buscando jogos e gerando palpites...";
 
   try {
-    const res = await fetch("https://api.api-futebol.com.br/v1/partidas?data=hoje", {
+    const res = await fetch("https://api.api-futebol.com.br/v1/competitions/10/matches", {
       headers: {
         "Authorization": "Bearer c318d7bb6044fec655937dd09e4bdb34"
       }
